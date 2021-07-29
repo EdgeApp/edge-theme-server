@@ -16,6 +16,14 @@ export const theme = {
   fullRowDisplay: 'table',
   fullRowTableLayout: 'fixed',
 
+  rowWidth: '100%',
+  rowHeight: '50%',
+  rowDisplay: 'table',
+  rowTableLayout: 'fixed',
+
+  columnHeight: '100%',
+  columnDisplay: 'table-cell',
+
   // Buttons
   buttonOutline: 'none',
   buttonBackgroundColor: 'transparent',
@@ -57,5 +65,41 @@ export const theme = {
 
   sidetabSidebarDisplay: 'table-cell',
   sidetabSidebarBackground: 'linear-gradient(90deg, #0C446A 0%, #0D2145 100%)',
-  sidetabSidebarWidth: '200px'
+  sidetabSidebarWidth: '200px',
+
+  // API Keys Component
+
+  apiListIndentMargin: 0,
+  apiListIndentPaddingInlineStart: 0,
+
+  apiKeysMissingMessageColor: palette.red,
+
+  apiKeysAccurateMessageColor: palette.green,
+
+  apiKeyMessageListStyleType: 'none',
+  apiKeyMessageTextAlign: 'center',
+  apiKeyMessageFontSize: '24px',
+
+  apiKeyUserDivListStyleType: 'none',
+  apiKeyUserDivTextAlign: 'center',
+  apiKeyUserDivMarginTop: '12px',
+  apiKeyUserDivMarginRight: '10px',
+
+  apiKeyInputFontSize: '16px',
+  apiKeyInputWidth: '270px',
+  apiKeyInputBorderWidth: '1px',
+  apiKeyInputColor: palette.black,
+  apiKeyInputOutline: 'none',
+
+  apiRectangleMargin: 0,
+  apiRectanglePadding: '1rem',
+  apiRectangleDisplay: 'table-cell',
+
+  apiFormStyleHeight: '80%',
+  apiFormStyleWidth: '100%',
+  apiFormStyleBackground: 'radial-gradient(#0C446A, #0D2145)',
+  apiFormStyleDisplay: 'flex',
+  apiFormStyleAlignItems: 'center',
+  apiFormStyleJustifyContent: 'center',
+  apiFormStyleColor: palette.white
 }
