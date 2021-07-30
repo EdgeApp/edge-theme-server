@@ -67,6 +67,35 @@ export const theme = {
   sidetabSidebarBackground: 'linear-gradient(90deg, #0C446A 0%, #0D2145 100%)',
   sidetabSidebarWidth: '200px',
 
+  // Upload
+  uploadRectangleMargin: 0,
+  uploadRectanglePadding: '1rem',
+  uploadRectangleMarginTop: '-50%',
+  uploadRectangleDisplay: 'table-cell',
+
+  uploadFormStyleHeight: '60%',
+  uploadFormStyleWidth: '100%',
+  uploadFormStyleBackground: 'radial-gradient(#0C446A, #0D2145)',
+  uploadFormStyleColor: palette.white,
+  uploadFormStyleTextAlign: 'auto',
+
+  firstRowDisplay: 'table',
+  firstRowWidth: '100%',
+  firstRowHeight: '60%',
+  firstRowVerticalAlign: 'bottom',
+  firstRowTextAlign: 'center',
+
+  fileSelectionDisplay: 'table-cell',
+
+  secondRowWidth: '100%',
+  secondRowHeight: '40%',
+  secondRowVerticalAlign: 'top',
+  secondRowTextAlign: 'center',
+  secondRowDisplay: 'table',
+
+  uploadSuccessfulMessageColor: palette.green,
+  uploadSuccessfulMessageTextAlign: 'center',
+
   // API Keys Component
 
   apiListIndentMargin: 0,

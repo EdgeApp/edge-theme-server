@@ -9,6 +9,12 @@ export const strings = {
   // Sidetab
   sidetabLogoAltText: 'Edge Logo',
 
+  // Upload
+  uploadInputType: 'file',
+  uploadInputName: 'file',
+  uploadInputID: 'inputFile',
+  uploadMainButtonLabel: 'Submit',
+
   // API Keys Component
   apiMainButtonLabel: 'Submit'
 }
