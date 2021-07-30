@@ -67,6 +67,20 @@ export const theme = {
   sidetabSidebarBackground: 'linear-gradient(90deg, #0C446A 0%, #0D2145 100%)',
   sidetabSidebarWidth: '200px',
 
+  // Download
+  downloadRectangleMargin: 0,
+  downloadRectanglePadding: '1rem',
+  downloadRectangleMarginTop: '-50%',
+  downloadRectangleDisplay: 'table-cell',
+
+  downloadFormStyleHeight: '60%',
+  downloadFormStyleWidth: '100%',
+  downloadFormStyleBackground: 'radial-gradient(#0C446A, #0D2145)',
+  downloadFormStyleDisplay: 'flex',
+  downloadFormStyleAlignItems: 'center',
+  downloadFormStyleJustifyContent: 'center',
+  downloadFormStyleColor: palette.white,
+
   // Upload
   uploadRectangleMargin: 0,
   uploadRectanglePadding: '1rem',

@@ -9,6 +9,10 @@ export const strings = {
   // Sidetab
   sidetabLogoAltText: 'Edge Logo',
 
+  // Download
+  downloadSelectButtonLabel: 'Themes',
+  downloadMainButtonLabel: 'Download',
+
   // Upload
   uploadInputType: 'file',
   uploadInputName: 'file',

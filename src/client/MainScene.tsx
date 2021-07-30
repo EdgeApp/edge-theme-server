@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { useCookies } from 'react-cookie'
 
 import { APIKeyScreen } from './components/APIKeysComponent'
+import { DownloadTheme } from './components/DownloadTheme'
 import { Sidebar } from './components/Sidebar'
 import { UploadTheme } from './components/UploadTheme'
 import { strings } from './theme/strings.js'
@@ -47,6 +48,7 @@ export function MainScene(): JSX.Element {
         <Sidebar />
         <div style={column}>
           <div style={row}>
+            <DownloadTheme />
             <UploadTheme />
           </div>
           <div style={row}>
