@@ -39,6 +39,36 @@ export const checkAccessCredentials = async (
       validConnection.valid = true
     })
     .promise()
-  console.log(validConnection)
   return validConnection
+}
+
+export const uploadTheme = (): boolean => {
+  const inputPath = document.getElementById('inputFile') as HTMLInputElement
+  const inputFiles = inputPath.files
+  let status = false
+  if (inputFiles?.[0] != null) {
+    const inputFile = inputFiles[0]
+    const params = {
+      Body: inputFile,
+      Bucket: `${config.bucketDO}`,
+      Key: inputFile.name,
+      ACL: config.aclSecurity
+    }
+    try {
+      const request = s3.putObject(params, function (error) {
+        // eslint-disable-next-line @typescript-eslint/strict-boolean-expressions
+        if (error) {
+          console.log(error)
+          return false
+        }
+        console.log('File uploaded successfully.')
+        return true
+      })
+      if (request.response.error === null) status = true
+      else status = false
+    } catch (error) {
+      console.log(error)
+    }
+  }
+  return status
 }
