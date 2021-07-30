@@ -42,6 +42,39 @@ export const checkAccessCredentials = async (
   return validConnection
 }
 
+export const listThemes = async (keysObject = {}): Promise<{}> => {
+  const params = {
+    Bucket: config.bucketDO
+  }
+  const response = await s3.listObjectsV2(params).promise()
+  if (response.Contents === undefined) return {}
+  response.Contents.forEach(obj => {
+    if (obj.Key === undefined) return
+    keysObject[`${obj.Key}`] = obj.Key
+  })
+  return keysObject
+}
+
+export const downloadTheme = (file: string): void => {
+  const params = {
+    Bucket: config.bucketDO,
+    Key: file
+  }
+  s3.getObject(params, function (err: AWS.AWSError | null, data) {
+    console.log('Data', data)
+    console.log('Data.Body', data.Body)
+    if (err != null) console.log(err, err.stack)
+    if (data.Body === undefined) throw new Error('Error getting data')
+    else {
+      const blob = new Blob([data.Body], { type: data.ContentType })
+      const link = document.createElement('a')
+      link.href = window.URL.createObjectURL(blob)
+      link.download = file
+      link.click()
+    }
+  })
+}
+
 export const uploadTheme = (): boolean => {
   const inputPath = document.getElementById('inputFile') as HTMLInputElement
   const inputFiles = inputPath.files
