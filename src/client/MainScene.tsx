@@ -3,6 +3,7 @@ import { useCookies } from 'react-cookie'
 
 import { APIKeyScreen } from './components/APIKeysComponent'
 import { Sidebar } from './components/Sidebar'
+import { UploadTheme } from './components/UploadTheme'
 import { strings } from './theme/strings.js'
 import { theme } from './theme/themes.js'
 
@@ -39,12 +40,15 @@ export function MainScene(): JSX.Element {
 
   useEffect(() => {
     Object.assign(document.body.style, body)
-  })
+  }, [])
   return (
     <>
       <div style={fullRow}>
         <Sidebar />
         <div style={column}>
+          <div style={row}>
+            <UploadTheme />
+          </div>
           <div style={row}>
             <APIKeyScreen
               apiKeyValid={apiKeyValid}
