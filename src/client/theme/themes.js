@@ -1,4 +1,7 @@
 const palette = {
+  red: 'red',
+  green: 'green',
+  black: 'black',
   white: 'white'
 }
 
@@ -12,6 +15,34 @@ export const theme = {
   fullRowHeight: '100%',
   fullRowDisplay: 'table',
   fullRowTableLayout: 'fixed',
+
+  // Buttons
+  buttonOutline: 'none',
+  buttonBackgroundColor: 'transparent',
+  buttonFontSize: '16px',
+  buttonCursor: 'pointer',
+
+  mainButtonOverflow: 'hidden',
+  mainButtonMarginTop: '12px',
+  mainButtonMarginLeft: '68px',
+  mainButtonMarginBottom: '12px',
+  mainButtonColor: palette.white,
+  mainButtonBorder: '1px solid white',
+
+  largeContainerMarginLeft: '26px',
+  largeContainerMarginTop: '24px',
+  largeContainerDisplay: 'flex',
+  largeContainerFlexDirection: 'column',
+
+  inputLabelFontSize: '16px',
+  inputLabelColor: palette.white,
+
+  deviceTypeInputFontSize: '16px',
+  deviceTypeInputBackgroundColor: palette.white,
+  deviceTypeInputBorder: 'none',
+  deviceTypeInputColor: palette.black,
+  deviceTypeInputMarginTop: '3px',
+  deviceTypeInputWidth: '148px',
 
   // Sidetab
   logoStyleMarginTop: '26px',
