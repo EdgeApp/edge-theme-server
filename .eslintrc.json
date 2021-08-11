@@ -1,8 +1,6 @@
 {
   "extends": [
     "standard-kit/prettier",
-    "standard-kit/prettier/jsx",
-    "standard-kit/prettier/typescript",
     "standard-kit/prettier/node"
   ],
   "parserOptions": {
