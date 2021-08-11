@@ -3,6 +3,7 @@
 /dist/
 /lib/
 /config.json
+/env.json
 
 # Package managers:
 node_modules/
