@@ -1,0 +1,190 @@
+{
+  "palette": {
+    "black": "#000000",
+    "white": "#FFFFFF",
+    "whiteBlue": "#EEF3F6",
+    "lightestBlue": "#D1ECFF",
+    "edgeNavy": "#0D2145",
+    "edgeBlue": "#0E4B75",
+    "edgeMint": "#66EDA8",
+    "gray": "#87939E",
+    "lightGray": "#D9E3ED",
+    "lightestGray": "#F6F6F6",
+    "mutedBlue": "#2F5E89",
+    "mutedGray": "#EDEDED",
+    "accentGreen": "#77C513",
+    "accentRed": "#E85466",
+    "accentBlue": "#0073D9",
+    "accentOrange": "#F1AA19",
+
+    "blackOp25": "rgba(0, 0, 0, .25)",
+    "blackOp50": "rgba(0, 0, 0, .5)",
+    "blackOp10": "rgba(0, 0, 0, .1)",
+    "grayOp80": "rgba(135, 147, 158, .8)",
+    "whiteOp10": "rgba(255, 255, 255, .1)",
+    "whiteOp75": "rgba(255, 255, 255, .75)",
+    "accentOrangeOp30": "rgba(241, 170, 25, .3)",
+    "lightGrayOp75": "rgba(217, 227, 237, .75)",
+    "transparent": "rgba(255, 255, 255, 0)",
+
+    "SFUITextRegular": "SF-UI-Text-Regular",
+    "QuicksandLight": "Quicksand-Light",
+    "QuicksandRegular": "Quicksand-Regular",
+    "QuicksandMedium": "Quicksand-Medium",
+    "QuicksandSemiBold": "Quicksand-SemiBold",
+    "QuicksandBold": "Quicksand-Bold"
+  },
+  "Theme": {
+    "isDark": false,
+
+    "defaultBorderColor": "white",
+
+    "icon": "black",
+    "iconTappable": "edgeBlue",
+    "iconDeactivated": "whiteOp75",
+    "warningIcon": "accentOrange",
+    "iconLoadingOverlay": "whiteOp75",
+    "transactionListIconBackground": "white",
+    "buySellCustomPluginModalIcon": "white",
+
+    "backgroundGradientLeft": "lightestGray",
+    "backgroundGradientRight": "lightestGray",
+
+    "cameraOverlayColor": "gray",
+    "cameraOverlayOpStart": 1,
+    "cameraOverlayOpEnd": 0.4,
+
+
+    "modal": "lightestGray",
+    "modalBlurType": "dark",
+    "modalCloseIcon": "edgeMint",
+
+    "tileBackground": "transparent",
+    "tileBackgroundMuted": "transparent",
+
+    "walletListBackground": "edgeBlue",
+    "walletListMutedBackground": "mutedBlue",
+
+    "primaryText": "black",
+    "secondaryText": "gray",
+    "warningText": "accentOrange",
+    "positiveText": "accentGreen",
+    "negativeText": "accentRed",
+    "dangerText": "accentRed",
+    "textLink": "edgeBlue",
+    "deactivatedText": "gray",
+
+    "primaryButtonOutline": "transparent",
+    "primaryButton": "edgeBlue",
+    "primaryButtonText": "edgeBlue",
+
+    "secondaryButtonOutline": "edgeBlue",
+    "secondaryButton": "transparent",
+    "secondaryButtonText": "edgeBlue",
+
+    "buttonBoxShadow": "black",
+
+    "cardBorder": 1,
+    "cardBorderColor": "whiteOp10",
+    "cardBorderRadius": 4,
+
+    "tabBarBackground": "white",
+    "tabBarIcon": "gray",
+    "tabBarIconHighlighted": "edgeBlue",
+
+    "sliderTabSend": "accentRed",
+    "sliderTabRequest": "accentGreen",
+    "sliderTabMore": "accentBlue",
+
+    "toggleButton": "accentGreen",
+    "toggleButtonOff": "gray",
+
+    "confirmationSlider": "blackOp10",
+    "confirmationSliderText": "edgeBlue",
+    "confirmationSliderArrow": "white",
+    "confirmationSliderThumb": "edgeBlue",
+    "confirmationSliderTextDeactivated": "gray",
+    "confirmationThumbDeactivated": "gray",
+    "confirmationSliderWidthLargeValue": 295,
+    "confirmationSliderWidthSmallSubtract": 45,
+    "confirmationSliderThumbWidth": 55,
+
+    "lineDivider": "edgeBlue",
+    "titleLineDivider": "edgeBlue",
+    "thinLineWidth": 1,
+    "mediumLineWidth": 2,
+
+    "settingsRowBackground": "white",
+    "settingsRowPressed": "transparent",
+    "settingsRowHeaderBackground": "lightGray",
+    "settingsRowSubHeader": "transparent",
+
+    "dateModalTextLight": "accentBlue",
+    "dateModalTextDark": "white",
+    "dateModalBackgroundLight": "white",
+    "dateModalBackgroundDark": "edgeBlue",
+
+    "walletProgressIconFill": "edgeMint",
+    "walletProgressIconFillDone": "transparent",
+    "walletProgressIconBackground": "transparent",
+
+    "searchListRefreshControlIndicator": "transparent",
+    "clipboardPopupText": "black",
+    "flipInputBorder": "edgeBlue",
+
+    "fontFaceDefault": "QuicksandRegular",
+    "fontFaceMedium": "QuicksandMedium",
+    "fontFaceBold": "QuicksandBold",
+    "fontFaceSymbolsAndroid": "SF-UI-Text-Regular",
+    "fontFaceSymbolNotAndroid": "QuicksandRegular",
+
+    "underlayColor": "white",
+    "underlayOpacity": 0.95,
+
+    "tutorialModalUnderlay": "transparent",
+
+    "qrForegroundColor": "black",
+    "qrBackgroundColor": "white",
+
+    "pickerTextDark": "white",
+    "pickerTextLight": "black",
+
+    "inputAccessoryBackground": "white",
+    "inputAccessoryText": "accentBlue",
+
+    "settingsChangellyLogo": "",
+    "settingsChangenowLogo": "",
+    "settingsCoinswitchLogo": "",
+    "settingsDefaultLogo": "",
+    "settingsFaastLogo": "",
+    "settingsFoxExchangeLogo": "",
+    "settingsGodexLogo": "",
+    "settingsSideshiftLogo": "",
+    "settingsSwitchainLogo": "",
+    "settingsTotleLogo": "",
+
+    "paymentTypeLogoApplePay": "",
+    "paymentTypeLogoAuspost": "",
+    "paymentTypeLogoBankgirot": "",
+    "paymentTypeLogoBankTransfer": "",
+    "paymentTypeLogoCash": "",
+    "paymentTypeLogoCreditCard": "",
+    "paymentTypeLogoDebitCard": "",
+    "paymentTypeLogoFasterPayments": "",
+    "paymentTypeLogoGiftCard": "",
+    "paymentTypeLogoIdeal": "",
+    "paymentTypeLogoNewsagent": "",
+    "paymentTypeLogoPayid": "",
+    "paymentTypeLogoPoli": "",
+    "paymentTypeLogoSofort": "",
+    "paymentTypeLogoSwish": "",
+    "paymentTypeLogoUpi": "",
+
+    "fioAddressLogo": "",
+    "walletListSlideTutorialImage": "",
+
+    "guiPluginLogoBitaccess": "",
+    "guiPluginLogoMoonpay": ""
+  }
+
+}
