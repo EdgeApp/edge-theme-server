@@ -1,3 +1,648 @@
 {
+  "title": "Edge Gui Theme File",
+  "type": "object",
+  "properties": {
+    "palette": {
+      "type": "object",
+      "properties": {
+        "white": {
+          "type": "string",
+          "description": "Color"
+        },
+        "black": {
+          "type": "string",
+          "description": "Color"
+        },
+        "royalBlue": {
+          "type": "string",
+          "description": "Color"
+        },
+        "darkBlue": {
+          "type": "string",
+          "description": "Color"
+        },
+        "edgeNavy": {
+          "type": "string",
+          "description": "Color"
+        },
+        "edgeBlue": {
+          "type": "string",
+          "description": "Color"
+        },
+        "edgeMint": {
+          "type": "string",
+          "description": "Color"
+        },
+        "blueGray": {
+          "type": "string",
+          "description": "Color"
+        },
+        "gray": {
+          "type": "string",
+          "description": "Color"
+        },
+        "lightGray": {
+          "type": "string",
+          "description": "Color"
+        },
+        "mutedBlue": {
+          "type": "string",
+          "description": "Color"
+        },
+        "accentGreen": {
+          "type": "string",
+          "description": "Color"
+        },
+        "accentRed": {
+          "type": "string",
+          "description": "Color"
+        },
+        "accentBlue": {
+          "type": "string",
+          "description": "Color"
+        },
+        "accentOrange": {
+          "type": "string",
+          "description": "Color"
+        },
+        "darkBlueNavyGradient1": {
+          "type": "string",
+          "description": "Color"
+        },
+        "darkBlueNavyGradient2": {
+          "type": "string",
+          "description": "Color"
+        },
 
+        "blackOp25": {
+          "type": "string",
+          "description": "Color"
+        },
+        "blackOp50": {
+          "type": "string",
+          "description": "Color"
+        },
+
+        "whiteOp10": {
+          "type": "string",
+          "description": "Color"
+        },
+        "whiteOp05": {
+          "type": "string",
+          "description": "Color"
+        },
+        "whiteOp75": {
+          "type": "string",
+          "description": "Color"
+        },
+
+        "grayOp80": {
+          "type": "string",
+          "description": "Color"
+        },
+        "accentOrangeOp30": {
+          "type": "string",
+          "description": "Color"
+        },
+        "lightGrayOp75": {
+          "type": "string",
+          "description": "Color"
+        },
+        "transparent": {
+          "type": "string",
+          "description": "Color"
+        },
+
+        "SFUITextRegular": {
+          "type": "string",
+          "description": "Font"
+        },
+        "QuicksandLight": {
+          "type": "string",
+          "description": "Font"
+        },
+        "QuicksandRegular": {
+          "type": "string",
+          "description": "Font"
+        },
+        "QuicksandMedium": {
+          "type": "string",
+          "description": "Font"
+        },
+        "QuicksandSemiBold": {
+          "type": "string",
+          "description": "Font"
+        },
+        "QuicksandBold": {
+          "type": "string",
+          "description": "Font"
+        }
+      }
+    },
+    "Theme": {
+      "type": "object",
+      "properties": {
+        "isDark": {
+          "type": "boolean",
+          "description": "Is dark mode used or not"
+        },
+
+        "defaultBorderColor": {
+          "type": "string",
+          "description": "Default color for common borders"
+        },
+
+        "icon": {
+          "type": "string",
+          "description": "Basic icon color"
+        },
+        "iconTappable": {
+          "type": "string",
+          "description": "Tappable icon color"
+        },
+        "iconDeactivated": {
+          "type": "string",
+          "description": "Deactivated icon color"
+        },
+        "warningIcon": {
+          "type": "string",
+          "description": "Warning icon color"
+        },
+        "iconLoadingOverlay": {
+          "type": "string",
+          "description": "Icon loading overlay color"
+        },
+        "transactionListIconBackground": {
+          "type": "string",
+          "description": "Transaction list icon background color"
+        },
+        "buySellCustomPluginModalIcon": {
+          "type": "string",
+          "description": "Buy and sell custom plugin modal icon color"
+        },
+
+        "backgroundGradientLeft": {
+          "type": "string",
+          "description": "Background gradient left color"
+        },
+        "backgroundGradientRight": {
+          "type": "string",
+          "description": "Background gradient right color"
+        },
+
+        "cameraOverlayColor": {
+          "type": "string",
+          "description": "Camera overlay color"
+        },
+        "cameraOverlayOpStart": {
+          "type": "number",
+          "description": "Camera overlay op start value"
+        },
+        "cameraOverlayOpEnd": {
+          "type": "number",
+          "description": "Camera overlay op end value"
+        },
+
+        "modal": {
+          "type": "string",
+          "description": "Basic modal color"
+        },
+        "modalCloseIcon": {
+          "type": "string",
+          "description": "Close modal icon color"
+        },
+
+        "tileBackground": {
+          "type": "string",
+          "description": "Tile background color"
+        },
+        "tileBackgroundMuted": {
+          "type": "string",
+          "description": "Tile background muted color"
+        },
+
+        "walletListBackground": {
+          "type": "string",
+          "description": "Wallet list background color"
+        },
+        "walletListMutedBackground": {
+          "type": "string",
+          "description": "Wallet list background muted color"
+        },
+
+        "primaryText": {
+          "type": "string",
+          "description": "Primary text color"
+        },
+        "secondaryText": {
+          "type": "string",
+          "description": "Secondary text color"
+        },
+        "warningText": {
+          "type": "string",
+          "description": "Warning text color"
+        },
+        "positiveText": {
+          "type": "string",
+          "description": "Positive text color"
+        },
+        "negativeText": {
+          "type": "string",
+          "description": "Negative text color"
+        },
+        "dangerText": {
+          "type": "string",
+          "description": "Danger text color"
+        },
+        "textLink": {
+          "type": "string",
+          "description": "Link text color"
+        },
+        "deactivatedText": {
+          "type": "string",
+          "description": "Deactivated text color"
+        },
+
+        "primaryButtonOutline": {
+          "type": "string",
+          "description": "Primary button outline color"
+        },
+        "primaryButton": {
+          "type": "string",
+          "description": "Primary button color"
+        },
+        "primaryButtonText": {
+          "type": "string",
+          "description": "Primary button text color"
+        },
+
+        "secondaryButtonOutline": {
+          "type": "string",
+          "description": "Secondary button outline color"
+        },
+        "secondaryButton": {
+          "type": "string",
+          "description": "Secondary button color"
+        },
+        "secondaryButtonText": {
+          "type": "string",
+          "description": "Secondary button text color"
+        },
+
+        "buttonBoxShadow": {
+          "type": "string",
+          "description": "Button box shadow color"
+        },
+
+        "cardBorder": {
+          "type": "number",
+          "description": "Card border value"
+        },
+        "cardBorderColor": {
+          "type": "string",
+          "description": "Card border color"
+        },
+        "cardBorderRadius": {
+          "type": "number",
+          "description": "Card border radius value"
+        },
+
+        "tabBarBackground": {
+          "type": "string",
+          "description": "Tab bar background color"
+        },
+        "tabBarIcon": {
+          "type": "string",
+          "description": "Tab bar icon color"
+        },
+        "tabBarIconHighlighted": {
+          "type": "string",
+          "description": "Tab bar icon highlighted color"
+        },
+
+        "sliderTabSend": {
+          "type": "string",
+          "description": "Send slider tab color"
+        },
+        "sliderTabRequest": {
+          "type": "string",
+          "description": "Request slider tab color"
+        },
+        "sliderTabMore": {
+          "type": "string",
+          "description": "More slider tab color"
+        },
+
+        "toggleButton": {
+          "type": "string",
+          "description": "Toggle button color"
+        },
+        "toggleButtonOff": {
+          "type": "string",
+          "description": "Toggle button off color"
+        },
+
+        "confirmationSlider": {
+          "type": "string",
+          "description": "Confirmation slider color"
+        },
+        "confirmationSliderText": {
+          "type": "string",
+          "description": "Confirmation slider text color"
+        },
+        "confirmationSliderArrow": {
+          "type": "string",
+          "description": "Confirmation slider arrow color"
+        },
+        "confirmationSliderThumb": {
+          "type": "string",
+          "description": "Confirmation slider thumb color"
+        },
+        "confirmationSliderTextDeactivated": {
+          "type": "string",
+          "description": "Confirmation slider deactivated text color"
+        },
+        "confirmationThumbDeactivated": {
+          "type": "string",
+          "description": "Confirmation thumb deactivated color"
+        },
+        "confirmationSliderWidthLargeValue": {
+          "type": "number",
+          "description": "Confirmation slider width when device width >= 340"
+        },
+        "confirmationSliderWidthSmallSubtract": {
+          "type": "number",
+          "description": "Confirmation slider width when device width < 340 is device width minus value"
+        },
+        "confirmationSliderThumbWidth": {
+          "type": "number",
+          "description": "Confirmation slider thumb width value"
+        },
+
+        "lineDivider": {
+          "type": "string",
+          "description": "Divider line color"
+        },
+        "titleLineDivider": {
+          "type": "string",
+          "description": "Title divider line color"
+        },
+        "thinLineWidth": {
+          "type": "number",
+          "description": "Thin line width value"
+        },
+        "mediumLineWidth": {
+          "type": "number",
+          "description": "Medium line width value"
+        },
+
+        "settingsRowBackground": {
+          "type": "string",
+          "description": "Settings row background color"
+        },
+        "settingsRowPressed": {
+          "type": "string",
+          "description": "Pressed settings row color"
+        },
+        "settingsRowHeaderBackground": {
+          "type": "string",
+          "description": "Settings row header background color"
+        },
+        "settingsRowSubHeader": {
+          "type": "string",
+          "description": "Settings row subheader color"
+        },
+
+        "dateModalTextLight": {
+          "type": "string",
+          "description": "Native ios date modal light text color"
+        },
+        "dateModalTextDark": {
+          "type": "string",
+          "description": "Native ios date modal dark text color"
+        },
+        "dateModalBackgroundLight": {
+          "type": "string",
+          "description": "Native ios date modal light background color"
+        },
+        "dateModalBackgroundDark": {
+          "type": "string",
+          "description": "Native ios date modal dark background color"
+        },
+
+        "walletProgressIconFill": {
+          "type": "string",
+          "description": "Wallet progress icon fill color"
+        },
+        "walletProgressIconFillDone": {
+          "type": "string",
+          "description": "Wallet progress icon fill done color"
+        },
+        "walletProgressIconBackground": {
+          "type": "string",
+          "description": "Wallet progress icon background color"
+        },
+
+        "searchListRefreshControlIndicator": {
+          "type": "string",
+          "description": "Search list refresh control indicator color"
+        },
+        "clipboardPopupText": {
+          "type": "string",
+          "description": "Clipboard popup text color"
+        },
+        "flipInputBorder": {
+          "type": "string",
+          "description": "Flip input border color"
+        },
+
+        "fontFaceDefault": {
+          "type": "string",
+          "description": "Font face default font"
+        },
+        "fontFaceMedium": {
+          "type": "string",
+          "description": "Font face medium font"
+        },
+        "fontFaceBold": {
+          "type": "string",
+          "description": "Font face bold font"
+        },
+        "fontFaceSymbolsAndroid": {
+          "type": "string",
+          "description": "Font face symbols android font"
+        },
+        "fontFaceSymbolsNotAndroid": {
+          "type": "string",
+          "description": "Font face symbols not android font"
+        },
+
+        "underlayColor": {
+          "type": "string",
+          "description": "TouchableHighlights underlay color"
+        },
+        "underlayOpacity": {
+          "type": "number",
+          "description": "TouchableHighlights underlay opacity value"
+        },
+
+        "tutorialModalUnderlay": {
+          "type": "string",
+          "description": "Tutorial modal underlay color"
+        },
+
+        "qrForegroundColor": {
+          "type": "string",
+          "description": "QR code foreground color"
+        },
+        "qrBackgroundColor": {
+          "type": "string",
+          "description": "QR code background color"
+        },
+
+        "pickerTextDark": {
+          "type": "string",
+          "description": "Picker text dark color"
+        },
+        "pickerTextLight": {
+          "type": "string",
+          "description": "Picker text light color"
+        },
+
+        "inputAccessoryBackground": {
+          "type": "string",
+          "description": "Input accessory background color"
+        },
+        "inputAccessoryText": {
+          "type": "string",
+          "description": "Input accessory text color"
+        },
+
+        "settingsChangellyLogo": {
+          "type": "string",
+          "description": "Image"
+        },
+        "settingsChangenowLogo": {
+          "type": "string",
+          "description": "Image"
+        },
+        "settingsCoinswitchLogo": {
+          "type": "string",
+          "description": "Image"
+        },
+        "settingsDefaultLogo": {
+          "type": "string",
+          "description": "Image"
+        },
+        "settingsFaastLogo": {
+          "type": "string",
+          "description": "Image"
+        },
+        "settingsFoxExchangeLogo": {
+          "type": "string",
+          "description": "Image"
+        },
+        "settingsGodexLogo": {
+          "type": "string",
+          "description": "Image"
+        },
+        "settingsSideshiftLogo": {
+          "type": "string",
+          "description": "Image"
+        },
+        "settingsSwitchainLogo": {
+          "type": "string",
+          "description": "Image"
+        },
+        "settingsTotleLogo": {
+          "type": "string",
+          "description": "Image"
+        },
+
+        "paymentTypeLogoApplePay": {
+          "type": "string",
+          "description": "Image"
+        },
+        "paymentTypeLogoAuspost": {
+          "type": "string",
+          "description": "Image"
+        },
+        "paymentTypeLogoBankgirot": {
+          "type": "string",
+          "description": "Image"
+        },
+        "paymentTypeLogoBankTransfer": {
+          "type": "string",
+          "description": "Image"
+        },
+        "paymentTypeLogoCash": {
+          "type": "string",
+          "description": "Image"
+        },
+        "paymentTypeLogoCreditCard": {
+          "type": "string",
+          "description": "Image"
+        },
+        "paymentTypeLogoDebitCard": {
+          "type": "string",
+          "description": "Image"
+        },
+        "paymentTypeLogoFasterPayments": {
+          "type": "string",
+          "description": "Image"
+        },
+        "paymentTypeLogoGiftCard": {
+          "type": "string",
+          "description": "Image"
+        },
+        "paymentTypeLogoIdeal": {
+          "type": "string",
+          "description": "Image"
+        },
+        "paymentTypeLogoNewsagent": {
+          "type": "string",
+          "description": "Image"
+        },
+        "paymentTypeLogoPayid": {
+          "type": "string",
+          "description": "Image"
+        },
+        "paymentTypeLogoPoli": {
+          "type": "string",
+          "description": "Image"
+        },
+        "paymentTypeLogoSofort": {
+          "type": "string",
+          "description": "Image"
+        },
+        "paymentTypeLogoSwish": {
+          "type": "string",
+          "description": "Image"
+        },
+        "paymentTypeLogoUpi": {
+          "type": "string",
+          "description": "Image"
+        },
+
+        "fioAddressLogo": {
+          "type": "string",
+          "description": "Image"
+        },
+        "walletListSlideTutorialImage": {
+          "type": "string",
+          "description": "Image"
+        },
+
+        "guiPluginLogoBitaccess": {
+          "type": "string",
+          "description": "Image"
+        },
+        "guiPluginLogoMoonpay": {
+          "type": "string",
+          "description": "Image"
+        }
+
+      }
+    }
+  }
 }
